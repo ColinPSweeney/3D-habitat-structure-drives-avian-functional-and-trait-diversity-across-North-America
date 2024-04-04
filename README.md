@@ -99,5 +99,4 @@ Column names of final data file:
 60. PC4: principle component axes 4 value
 61. VegRating: vegitation rating of each plot (understory, midstory, subcanopy, canopy), used for plotting
 
-METHODOLOGICAL INFORMATION
 
