@@ -1,12 +1,19 @@
-This project contains code related to the paper titled: **3D habitat structure drives avian functional and trait diversity across North America**
-**Article**: https://doi.org/10.1002/ece3.70988 
+# 3D habitat structure drives avian functional and trait diversity across North America
 
-**Paper Abstract**:
+This project contains code related to the paper titled: **3D habitat structure drives avian functional and trait diversity across North America**
+
+Sweeney, C.P., Peterman, W., Zhao, K., Goodell, K., Zuckerberg, B. and Jarzyna, M.A. (2025), Three-Dimensional Habitat Structure Drives Avian Functional and Trait Diversity Across North America. Ecol Evol, 15: e70988. https://doi.org/10.1002/ece3.70988 
+
+## **Paper Abstract**
 Understanding how three-dimensional (3D) habitat structure drives biodiversity patterns is key to predicting how habitat alteration and loss will affect species and community-level patterns in the future. To date, few studies have contrasted the effects of 3D habitat composition with those of 3D habitat configuration on biodiversity, with existing investigations often limited to measures of taxonomic diversity (i.e., species richness). Here, we examined the influence of Light Detecting and Ranging (LiDAR)-derived 3D habitat structure–both its composition and configuration–on multiple facets of bird diversity. Specifically, we used data from the National Ecological Observatory Network (NEON) to test the associations between 11 measures of 3D habitat structure and avian species richness, functional and trait diversity, and phylogenetic diversity. We found that 3D habitat structure was the most consistent predictor of avian functional and trait diversity, with little to no effect on species richness or phylogenetic diversity. Functional diversity and individual trait characteristics were strongly associated with both 3D habitat composition and configuration, but the magnitude and the direction of the effects varied across the canopy, subcanopy, midstory, and understory vertical strata. Our findings suggest that 3D habitat structure influences avian diversity through its effects on traits. By examining the effects of multiple aspects of habitat structure on multiple facets of avian diversity, we provide a broader framework for future investigations on habitat structure.
 
-Full data for this paper can be found at Data Dryad: https://doi.org/10.5061/dryad.t76hdr87q 
+## **Links to Article and Full Data**
 
-**GENERAL INFORMATION**
+Paper: https://doi.org/10.1002/ece3.70988 
+
+Data Dryad: https://doi.org/10.5061/dryad.t76hdr87q 
+
+## **GENERAL INFORMATION**
 Name of files in order of their use:
 1. 2017_NEON_LiDARDownload_UnifiedCode.R
 2. LiDAR_DataProcessing_chapter1.R
@@ -29,7 +36,7 @@ Name of files in order of their use:
 19. Chapter1_FinalModels.R
 20. Density_plots_PaperFigures.R
 
-**DATA**
+## **DATA**
 Data assoiciated with this project came from the following datasets:
 1. National Ecological Observatory Network (NEON) shapefiles: https://www.neonscience.org/data-samples/data/spatial-data-maps 
 2. LiDAR Data: NEON data product: DP1.30003.001
@@ -41,7 +48,8 @@ Data assoiciated with this project came from the following datasets:
 
 We used data from 385 avian plots from 38 NEON terrestrial sites across 17 of the 20 NEON Domains. 260 species were included across all avian plots. Data came from 2017. Plots were 250m in radius
 
-**Final data file**: Chp1_FinalData_AllIndicies_UpdatedVoxel_4bins_repair_ShannonReplacementTry1_TotHorFrag_NEW_PCoA.csv
+## **Final data file**
+### Chp1_FinalData_AllIndicies_UpdatedVoxel_4bins_repair_ShannonReplacementTry1_TotHorFrag_NEW_PCoA.csv
 Column names of final data file:
 1. plotID: NEON plotID
 2. plotNum: plot number (unique to this project only)
